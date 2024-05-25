@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary_color: #223637;
+    --font-family: theme-font;
+    --secondary_color: #58969e;
+    --background_color: #f8f9fa;
+}
+
+body {
+    font-size: 16px;
+    word-wrap: break-word;
+    font-family: var(--font-family);
+}
+
+main a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary_color);
+    transition: all ease-in-out 0.3s;
+}
+
+main a:hover {
+    color: var(--secondary_color);
+    transition: all ease-in-out 0.3s;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--primary_color);
+}
+
+span {
+    color: var(--primary_color);
+}
+
+/******** Default CSS End ********/
+
+.todo-list-section {
+    background-color: #f5f6fa;
+}
+
+.todo-list-section .todo-box {
+    width: 100%;
+    height: 100vh;
+    row-gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.todo-list-section .todo-box .todo-wrapper {
+    width: 300px;
+}
+
+.todo-list-section .todo-box .todo-wrapper .input-group {
+    border-radius: 6px;
+    box-shadow: 0 1px 6px 0 #00000026;
+}
+
+.todo-list-section .todo-box .todo-wrapper .list-group .delete-me {
+    cursor: pointer;
+}
+
+.todo-list-section .todo-box .input-form {
+    display: flex;
+}
+
+/*
+**
+***    MEDIA-QUERY-CSS-SECTION-START
+**
+*/
+
+/*** Small-Screens-(Mobile - Portrait Mode)-Start ***/
+@media (min-width: 280px) and (max-width: 575px) {
+
+}
+
+/*** Small-Screens-(Mobile - Portrait Mode)-End ***/
+
+/*** Small-Screens-(Mobile - Landscape Mode)-Start ***/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/*** Small-Screens-(Mobile - Landscape Mode)-End ***/
+
+/*** Medium-Screens-(Tablet - Portrait Mode)-Start ***/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*** Medium-Screens-(Tablet - Portrait Mode)-End ***/
+
+/*
+**
+***    MEDIA-QUERY-CSS-SECTION-END
+**
+*/
